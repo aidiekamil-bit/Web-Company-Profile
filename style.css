@@ -3,6 +3,7 @@
   padding: 0;
   font-family: poppins, sans-serif;
   text-decoration: none;
+  
 }
 body {
   background-color: white;
@@ -68,13 +69,17 @@ h2 {
   margin: 10px;
   padding: 10px;
 }
+
+
 .you {
   background-color: #f1a204;
   color: white;
   border-radius: 5px;
-  align-items: center;
+  text-align: center;
+  text-align: center;
   margin: 10px;
-  padding-bottom: 20px;
+  padding-top: 2px;
+  
 }
 .program {
   display: flex;
@@ -320,17 +325,35 @@ body {
     width: 95%;
   }
 }
-
-/* .portofoliovideo {
-  display: flex;
-  justify-content: center;
-} */
+.portofoliovideo div{
+  padding: 5px;
+}
+.portofoliovideo iframe{
+  border-radius: 10px;
+  
+  
+} 
 
 /* .portofolio1{
     display:flex
 } */
 .portofoliotkj {
   display: flex;
+  
+}
+.portofoliodkv{
+ margin-left: 50px;
+}
+
+.tkj-kata h1{
+  padding: 30px;
+}
+.tkj-kata ul{
+  margin-left: px;
+  padding: px;
+}
+.tkj-kata div{
+  padding: 5px;
 }
 .katatkj {
   text-align: center;
@@ -348,18 +371,36 @@ body {
 }
 .dkv-kata {
   align-items: center;
+  margin-left: 50px;
+  
+}
+.dkv-kata h1{
+  padding: 30px;
+}
+.dkv-kata ul{
+  margin-left: px;
+  padding-top:15px;
+}
+
+.dkv-kata div{
+padding: 5px;
 }
 .lihat {
   background-color: #0c048c;
   color: white;
-  border-radius: 10px;
+  margin: 80px;
+  padding-top: 90px;
+  border-radius: 5px;
+  text-align: center;
+  
 }
 .colvocational {
-  background-color: #f2f5f7;
+  background-color: #F2F5F7;
   border-radius: 10px;
   margin-right: 30px;
   margin-left: 100px;
-  padding: 20px;
+  padding: 1px;
+  
 }
 .row {
   display: flex;
@@ -368,6 +409,7 @@ body {
   background-color: #fceeea;
   border-radius: 10px;
   padding: 20px;
+  
 }
 .colreligius {
   background-color: #f2f5f7;
@@ -402,4 +444,21 @@ h4 {
 }
 .teks {
   margin: 10px;
+}
+.vocational{
+  padding-bottom: 30px;
+}
+.urutan div{
+  padding:5px ;
+  justify-content: center;
+  
+}
+.religius{
+  align-items: center;
+  padding-top: 10px; 
+ 
+  
+}
+.karya{
+  color: #0C048C;
 }
