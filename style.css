@@ -366,6 +366,16 @@ body {
 /* .portofolio1{
     display:flex
 } */
+ @media screen and (max-width: 600px) {
+  .container_alasan {
+    width: 95%;
+    flex-direction: column;
+  }
+  .colvocational{
+    flex-direction: column;
+
+  }
+}
 .portofoliotkj {
   display: flex;
   
@@ -526,6 +536,23 @@ padding: 10px;
  font-size: small;
   
 }
+
+
+.colporto .test1 h2{
+  padding:50px ;
+}
+.colporto img{
+  padding-bottom: 20px;
+}
+.tes2 h2{
+  padding-top: 50px;
+}
+.colporto2 div{
+  padding: 15px;
+}
+.colporto .you{
+  width: px;
+}
 .row{
   margin: px;
   
@@ -551,7 +578,8 @@ padding: 10px;
   display: flex;
  }
  .tes2 {
-  font-size: large;
+  font-size: small;
+  margin: 10px;
  
  }
  .colporto img{
@@ -611,4 +639,28 @@ padding: 10px;
  }
  .containerportofolio2{
   padding-top: 50px;
+ }
+ span .tes2 h2{
+  padding: 50px;
+ }
+ /* daftar */
+ .coldaftar1{
+  background-color: #f1a204;
+  width: 30%;
+  border-radius: 50px;
+  color: white;
+  align-items: center;
+  padding-top: 100px;
+ }
+ .tulis{
+  align-items: center;
+ }
+ .coldaftar img{
+  width: 40%;
+ }
+ .rowdaftar{
+  display: flex;
+ }
+ .coldaftar1 span{
+  margin: 50px;
  }
