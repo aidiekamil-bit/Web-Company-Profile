@@ -4,14 +4,14 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   text-decoration-thickness: none;
-  
+  justify-content: baseline;
 }
 body {
   background-color: white;
 }
 
 .container {
-  width: 80%;
+  width: 80% ;
   background-color: white;
   margin: auto;
 }
@@ -105,11 +105,13 @@ h2 {
 .hero{
   display: flex;
 font-size: 20px;
+justify-content: center;
   
   /* background-color: #0C048C; */
 }
 .hero div{
-  padding: 15px;
+  padding: 13px;
+  
 }
 .kata {
   color: #0c048c;
@@ -182,8 +184,8 @@ p {
 
 .Jurusan {
   background-color: white;
-  margin: 10px;
-  padding: 20px;
+  margin:50px ;
+  
   display: flex;
   justify-content: center;
   border-radius: 10px;
@@ -210,7 +212,7 @@ p {
   border-radius: 5px;
   background-color: rgb(6, 6, 125);
   color: white;
-  margin: 10px;
+  margin: 5px;
  cursor: pointer;
 }
 .Tkj .Download {
@@ -252,19 +254,19 @@ h5 {
 .Jurusan .Tkj {
   background-color: aliceblue;
   margin: 15px;
-  padding: 15px;
+  padding: 30px;
   border-radius: 10px;
 }
 .Jurusan .Dkv {
   background-color: aliceblue;
   margin: 15px;
-  padding: 15px;
+  padding: 30px;
   border-radius: 10px;
 }
 .Jurusan .Rpl {
   background-color: aliceblue;
   margin: 15px;
-  padding: 15px;
+  padding: 30px;
   border-radius: 10px;
 }
 li {
@@ -284,7 +286,7 @@ li {
 
 body {
   background-color: white;
-  padding: 40px;
+  padding: px;
 }
 
 .container_gallery2 {
@@ -387,7 +389,7 @@ body {
 }
 .portofoliotkj {
   display: flex;
-  
+  justify-content: center;
 }
 .portofoliodkv{
  margin-left: 50px;
@@ -496,7 +498,7 @@ margin: 10px;
   padding: 20px;
 }
 .container_alasan{
-  padding-left: 50px;
+  padding-left: 70px;
 }
 p {
   color: #0c048c;
@@ -516,7 +518,9 @@ h4 {
 }
 .Tkj div {
   padding: 5px;
+  
 }
+
 .Dkv div {
   padding: 5px;
 }
@@ -546,6 +550,8 @@ h4 {
 }
 .rowporto{
   box-sizing: border-box;
+  justify-content: center;
+  font-size: large;
 }
  .colporto img{
   width: 250px;
@@ -592,13 +598,13 @@ padding: 10px;
  
  .rowporto .colporto{
   margin: 10px;
-  justify-content: center;
+  
  
  }
  .rowporto{
   padding-top:80px;
   padding-bottom: 80px;
-  margin-left: 200px;
+  
   display: flex;
  }
  .tes3 h2 {
@@ -672,7 +678,7 @@ padding: 10px;
 
 
  /* daftar */
- .coldaftar1{
+ .coldaftar1 {
   background-color: #f1a204;
   width:70%;
   height:auto;
@@ -680,6 +686,7 @@ padding: 10px;
   color: white;
   align-items: center;
   padding-top: 100px;
+  
  }
  .tulis{
   align-items: center;
@@ -705,6 +712,7 @@ padding: 10px;
   background: #111518;
   border-radius: 5px;
   width: 70%;
+  padding: 20px;
   text-align: center;
   cursor: pointer;
   margin-bottom: 60px;
@@ -713,8 +721,9 @@ padding: 10px;
   text-align: center;
   color: #0C048C;
   padding-top: 20px;
+  padding-bottom: px;
   font-size: 16px;
-  padding-bottom: 30px;
+  padding-bottom: px;
  }
  .dua{
   text-align: center;
@@ -735,9 +744,10 @@ padding: 10px;
 }
  /* footer */
  footer{
-  background-color: grey;
-  ;
-  padding: 10px;
+  background-color: #f4f5f6;
+  text-align: start;
+  color: grey;
+  padding: 50px;
 width: 100%;
-  
+  font-size: large;
  }
