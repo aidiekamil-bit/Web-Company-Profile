@@ -37,12 +37,13 @@ h3 {
 }
 h2 {
   display: contents;
-  color: #0c048c;
+  color: #0c084c;
 }
 .pesat a {
   background-color: #f1a204;
   border-radius: 5px;
-  padding: 10px;
+  padding: 15px;
+  
   display: flex;
   justify-content: center;
   color: white;
@@ -53,7 +54,7 @@ h2 {
 }
 
 .pesat a:hover {
-  background-color: #0c048c;
+  background-color: #0c084c;
   color: white;
 }
 .aku {
@@ -63,8 +64,8 @@ h2 {
   justify-content: center;
 }
 .my {
-  border-color: #0c048c;
-  border:1px solid #0C048C;
+  border-color: #0c084c;
+  border:1px solid #0c084c;
   cursor: pointer;
   border-radius: 5px;
   color: white;
@@ -99,7 +100,7 @@ h2 {
 .saya {
   text-align: left;
   border-radius: 5px;
-  border-color: #0c048c;
+  border-color: #0c084c;
   color: white;
 }
 .hero{
@@ -114,7 +115,7 @@ justify-content: center;
   
 }
 .kata {
-  color: #0c048c;
+  color: #0c084c;
   text-decoration: none;
 
 }
@@ -131,7 +132,7 @@ justify-content: center;
   /* background-color: aqua; */
 }
 .picture .besar img {
-  height: auto;
+  height: max-content;
   width: 200px;
 }
 
@@ -143,7 +144,7 @@ justify-content: center;
 .picture .kecil img {
   font-size: 50px;
   text-decoration: none;
-  color: #0c048c;
+  color: #0c084c;
 }
 .classtext .teks {
   font-size: 20px;
@@ -158,7 +159,7 @@ justify-content: center;
   text-decoration: none;
 }
 .fa-solid fa-circle-check {
-  color: #0c048c;
+  color: #0c084c;
 }
 
 
@@ -210,7 +211,7 @@ p {
 .Download {
   text-align: center;
   border-radius: 5px;
-  background-color: rgb(6, 6, 125);
+  background-color: #0c084c;
   color: white;
   margin: 5px;
  cursor: pointer;
@@ -229,7 +230,7 @@ p {
 .Down {
   text-align: center;
   border-radius: 5px;
-  background-color: rgb(6, 6, 125);
+  background-color: #0c084c;
   color: white;
   margin: 5px;
   cursor: pointer;
@@ -237,17 +238,17 @@ p {
 .load {
   text-align: center;
   border-radius: 5px;
-  background-color: rgb(6, 6, 125);
+  background-color: #0c084c;
   color: white;
   margin: 5px;
   cursor: pointer;
 }
 h1 {
-  color: rgb(6, 6, 125);
+  color: #0c084c;
   margin-top: 100px;
 }
 h5 {
-  color: rgb(6, 6, 125);
+  color: #0c084c;
   text-align: center;
 }
 
@@ -294,6 +295,7 @@ body {
   margin: auto;
   background-color: white;
   padding: 20px;
+  justify-content: center;
 }
 
 .title {
@@ -396,14 +398,14 @@ body {
 }
 
 .tkj-kata h1{
-  padding: 30px;
+  
 }
 .tkj-kata ul{
   margin-left: px;
-  padding: 10px;
+  padding: px;
 }
 .tkj-kata div{
-  padding: 5px;
+  padding: 10px; 
 }
 .tkj-kata .karya{
   margin: 10px;
@@ -430,22 +432,20 @@ body {
   margin-left: 50px;
   
 }
-.dkv-kata h1{
-  padding: 30px;
-}
+
 .dkv-kata ul{
   margin-left: 10px;
-  padding-top:15px;
+  padding-top:px;
 }
 
 .dkv-kata div{
 padding: 5px;
 }
  .lihat {
-  background-color: #0c048c;
+  background-color: #0c084c;
   color: white;
   margin:px;
-  padding: 10px;
+  padding: 100px;
   border-radius: 5px;
   text-align: center;
   cursor: pointer;
@@ -453,8 +453,8 @@ padding: 5px;
 
 .tkj-kata .lihat{
   padding: 15px;
-  margin: px;
-  width:70%;
+  ;
+  width:90%;
 }
 .rpl-kata .lihat{
   padding: 15px;
@@ -501,7 +501,7 @@ margin: 10px;
   padding-left: 70px;
 }
 p {
-  color: #0c048c;
+  color: #0c084c;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 40px;
@@ -514,7 +514,7 @@ h4 {
   color: white;
 }
 .my a {
-  color: #0c048c;
+  color: #0c084c;
 }
 .Tkj div {
   padding: 5px;
@@ -546,7 +546,7 @@ h4 {
 }
 
 .karya{
-  color: #0C048C;
+  color: #0c084c;
 }
 .rowporto{
   box-sizing: border-box;
@@ -719,7 +719,7 @@ padding: 10px;
  }
  .tulis {
   text-align: center;
-  color: #0C048C;
+  color: #0c084c;
   padding-top: 20px;
   padding-bottom: px;
   font-size: 16px;
@@ -728,7 +728,7 @@ padding: 10px;
  .dua{
   text-align: center;
   padding-top: 30px;
-  color: #0C048C;
+  color: #0c084c;
  }
  .coldaftar2 iframe{
   border-radius: 20px;
@@ -738,7 +738,7 @@ padding: 10px;
   margin-left: 20px;
 }
 .tiga{
-  color: #0C048C;
+  color: #0c084c;
   text-align: center;
   padding-bottom: 20px;
 }
