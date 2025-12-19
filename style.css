@@ -4,10 +4,10 @@
   font-family: "Poppins", sans-serif;
   text-decoration: none;
   text-decoration-thickness: none;
-  justify-content: baseline;
 }
 body {
   background-color: white;
+ 
 }
 
 .container {
@@ -107,7 +107,7 @@ h2 {
   display: flex;
 font-size: 20px;
 justify-content: center;
-  
+  margin-left: 50px;
   /* background-color: #0C048C; */
 }
 .hero div{
@@ -120,8 +120,10 @@ justify-content: center;
 
 }
 .classfoto img {
-  width: 95%;
+  width: 100%;
   height: auto;
+ 
+  
 }
 .picture {
   display: flex;
@@ -138,8 +140,11 @@ justify-content: center;
 
 .classtext .my a {
   display: flex;
-  gap: 20px;
+ 
   font-size: 20px;
+}
+.classtext div{
+  justify-content: ;
 }
 .picture .kecil img {
   font-size: 50px;
@@ -150,7 +155,7 @@ justify-content: center;
   font-size: 20px;
 }
 .besar {
-  font-size: 50px;
+  font-size: 20px;
   justify-content: center;
   padding: 35px;
 }
@@ -255,7 +260,7 @@ h5 {
 .Jurusan .Tkj {
   background-color: aliceblue;
   margin: 15px;
-  padding: 30px;
+  padding: 50px;
   border-radius: 10px;
 }
 .Jurusan .Dkv {
@@ -397,9 +402,7 @@ body {
  margin-left: 50px;
 }
 
-.tkj-kata h1{
-  
-}
+
 .tkj-kata ul{
   margin-left: px;
   padding: px;
@@ -473,10 +476,9 @@ margin: 10px;
 .colvocational {
   background-color: #f2f5f7;
   border: white;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-right: 30px;
-  margin-left: 100px;
-  padding: 10px;
+ 
   
 }
 /* .colvocational:hover{
@@ -487,19 +489,21 @@ margin: 10px;
 }
 .colprofesional {
   background-color: #fceeea;
-  border-radius: 10px;
-  padding: 20px;
+  border-radius: 15px;
+ 
   
 }
 .colreligius {
   background-color: #f2f5f7;
-  border-radius: 10px;
+  border-radius: 15px;
   margin-left: 30px;
-  padding: 20px;
+ 
+  
 }
-.container_alasan{
-  padding-left: 70px;
-}
+ .container_alasan div{
+  justify-content: center;
+  
+} 
 p {
   color: #0c084c;
   text-align: center;
@@ -528,7 +532,7 @@ h4 {
   padding: 5px;
 }
 .teks {
-  margin: 10px;
+  margin: 0px;
 }
 .vocational{
   padding-bottom: 30px;
