@@ -1,0 +1,59 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+/* Sembunyikan ikon hamburger secara default */
+.hamburger-icon {
+    display: none;
+}
+
+/* --- Media Query untuk Mobile --- */
+@media (max-width: 768px) {
+    .hamburger-icon {
+        display: block; /* Tampilkan ikon */
+        cursor: pointer;
+    }
+
+    .nav-links {
+        display: none; /* Sembunyikan menu */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+    }
+
+    .nav-links li {
+        margin: 0;
+        text-align: center;
+    }
+
+    /* Tampilkan menu ketika checkbox dicentang */
+    #menu-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+
+    /* Gaya untuk ikon hamburger */
+    .hamburger-icon span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        background-color: white;
+        margin: 5px 0;
+        transition: all 0.3s ease;
+    }
+}
